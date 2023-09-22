@@ -1,5 +1,7 @@
 import RxSwift
 
+public typealias RxObservable<Element> = RxSwift.Observable<Element>
+
 extension ObservableType {
     /// Absorbes all of events from a and b observables into result observable.
     ///
